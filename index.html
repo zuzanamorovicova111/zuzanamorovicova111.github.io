@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mgr. Zuzana Morovičová – dokumenty ku kampani</title>
+<meta name="description" content="Mgr. Zuzana Morovičová, nezávislá kandidátka, Galanta: správa o prostriedkoch vynaložených na volebnú kampaň a sprievodný list na stiahnutie vo formáte PDF.">
+<meta name="theme-color" content="#4e1123">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --brand: #4e1123;      /* bordová z plagátu; biely text na nej 14.6 : 1 (WCAG AA ✓) */
+    --accent: #be9142;     /* zlatá z plagátu (linky, okraje) */
+    --accent-text: #7a5c26;/* tmavšia zlatá pre malý text na krémovej 4.9 : 1 (WCAG AA ✓) */
+    --page: #efe9de;       /* krémové pozadie */
+    --ink: #2b0e18;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    min-height: 100vh;
+    background: radial-gradient(120% 80% at 20% 0%, #fbf8f2 0%, var(--page) 60%, #e6dccb 100%);
+    color: var(--ink);
+    font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    display: flex; align-items: center; justify-content: center;
+    padding: 40px 20px;
+  }
+  main { width: 100%; max-width: 600px; }
+  h1 {
+    font-stretch: 75%; font-weight: 800; text-transform: uppercase;
+    color: var(--brand);
+    font-size: clamp(38px, 10vw, 60px); line-height: .98; letter-spacing: .005em;
+    margin: 0 0 18px;
+  }
+  .eyebrow {
+    display: flex; align-items: center; gap: 14px;
+    font-stretch: 90%; font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
+    font-size: 15px; color: var(--brand); margin: 0 0 6px;
+  }
+  .eyebrow::before { content: ""; width: 36px; height: 2px; background: var(--brand); }
+  .sub {
+    font-stretch: 90%; font-weight: 700; font-style: italic; text-transform: uppercase; letter-spacing: .06em;
+    font-size: 14px; color: var(--accent-text); margin: 0 0 36px 50px;
+  }
+  .doc {
+    display: flex; flex-wrap: wrap; gap: 14px 18px; align-items: center; justify-content: space-between;
+    padding: 22px 0; border-top: 1px solid rgba(78,17,35,.18);
+  }
+  .doc:last-of-type { border-bottom: 1px solid rgba(78,17,35,.18); }
+  .doc h2 {
+    flex: 1 1 260px; margin: 0;
+    font-stretch: 80%; font-weight: 800; text-transform: uppercase;
+    font-size: 21px; line-height: 1.15; color: var(--brand);
+  }
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px; min-height: 48px;
+    padding: 12px 22px; border-radius: 999px;
+    background: var(--brand); color: #fff; text-decoration: none;
+    border: 2px solid var(--accent);
+    font-stretch: 90%; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: 15px;
+  }
+  .btn svg { width: 18px; height: 18px; flex: none; }
+  .btn:hover { background: #6e1e39; }
+  .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .podpis { display: block; width: min(300px, 70%); height: auto; margin: 34px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mgr. Zuzana<br>Morovičová</h1>
+  <p class="eyebrow">Nezávislá kandidátka</p>
+  <p class="sub">Dokumenty k volebnej kampani</p>
+
+  <section class="doc">
+    <h2>Správa o prostriedkoch vynaložených na volebnú kampaň</h2>
+    <a class="btn" href="https://drive.google.com/uc?export=download&amp;id=1JqokjaOSc8A-PHbDRp_KU1tSNPGZFuMX" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M6 10l6 6 6-6M4 21h16"/></svg>
+      Stiahnuť PDF
+    </a>
+  </section>
+
+  <section class="doc">
+    <h2>Sprievodný list</h2>
+    <a class="btn" href="https://drive.google.com/uc?export=download&amp;id=1Fk8L6_1HTkEIasGd3RFPVXOFXYQ6yaWo" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M6 10l6 6 6-6M4 21h16"/></svg>
+      Stiahnuť PDF
+    </a>
+  </section>
+
+  <img class="podpis" src="podpis-zm.png" alt="Podpis Zuzana Morovičová" width="720" height="240">
+</main>
+</body>
+</html>
